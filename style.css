@@ -19,6 +19,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   background-color: #2d2d30;
+  color: #d6d6d6;
 }
 
 img {
@@ -29,7 +30,6 @@ img {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  min-height: 50px;
 }
 
 .header {
@@ -38,7 +38,7 @@ img {
 
 .nav-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   list-style: none;
 }
@@ -50,10 +50,8 @@ img {
   font-size: 20px;
   font-weight: 300;
   line-height: 50px;
-  color: #fff;
+  color: #d6d6d6;
 }
-
-
 
 .main {
   margin-bottom: auto;
@@ -68,20 +66,16 @@ img {
 .section {
   width: calc(50% - 20px);
   padding: 10px;
-  padding-bottom: 35px;
-  border-bottom: 1px solid #672f2f;
+  border-bottom: 1px solid #5c4218;
 }
-
 
 .section-title {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 5px;
-  color: #fff;
+  color: #ffb640;
 }
-
-
 
 .section-list {
   margin: 0;
@@ -95,24 +89,17 @@ img {
   margin-bottom: 10px;
   padding: 0;
   padding-left: 30px;
-  color: #fff;
   text-decoration: none;
-}
-
-
-
-.section-item span {
-  color: #fff;
 }
 
 .section-item a {
   text-decoration: none;
-  color: #fff;
   transition: color 0.5s;
+  color: #c05d38;
 }
 
 .section-item a:hover {
-  color: #fff;
+  color: #83b77a;
 }
 
 .footer {
@@ -125,11 +112,9 @@ img {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  color: #fff;
 }
 
 .github {
-  color: #fff;
   text-decoration: none;
   line-height: 45px;
 }
@@ -137,20 +122,13 @@ img {
 .rss {
   width: 121px;
   height: 45px;
-  background-image: url("./assets/img/favicon.ico");
+  background-image: url("./assets/img/rs_school_icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-@media (max-width: 1440px) {
-  .container {
-    padding: 0 20px;
-  }
-}
-
-@media (max-width: 410px) {
-  .main-title {
-    font-size: 24px;
-    letter-spacing: 4px;
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
   }
 }
